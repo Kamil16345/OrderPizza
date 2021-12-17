@@ -11,4 +11,14 @@ public class GoodPizza implements IPizza {
         this.price=price;
         this.name=name;
     }
+
+    @Override
+    public int getPrice() {
+        return price;
+    }
+
+    @Override
+    public String getName() {
+        return name;
+    }
 }
